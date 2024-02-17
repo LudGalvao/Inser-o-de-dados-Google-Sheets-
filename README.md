@@ -1,37 +1,36 @@
 # PySheetsInsert
 
-PySheetsInsert is a Python tool for inserting data into Google Sheets.
+PySheetsInsert é uma ferramenta em Python para inserir dados em planilhas do Google Sheets.
 
-## Tools Used
+## Ferramentas Utilizadas
 
-- **google-auth**: Library for authentication with Google APIs.
-- **google-auth-oauthlib**: Library for OAuth2 authentication flows with Google.
-- **googleapiclient**: Library for interacting with Google APIs.
+- **google-auth**: Biblioteca para autenticação com as APIs do Google.
+- **google-auth-oauthlib**: Biblioteca para fluxos de autenticação OAuth2 com o Google.
+- **googleapiclient**: Biblioteca para interagir com as APIs do Google.
 
-## Prerequisites
+## Pré-requisitos
 
-Make sure you have the Google pip and the correct version of Python installed.
+Certifique-se de ter o pip do Google e a versão correta do Python instalados.
 
-### Installing Google pip
+### Instalação do pip do Google
 
 ```
 pip install google-auth google-auth-oauthlib google-api-python-client
 ```
 
-## Configuration
 
-Before getting started, you need to set up authentication credentials with Google.
+## Configuração
 
-1. Create a project in the [Google Cloud Console](https://console.cloud.google.com/).
-2. Enable the Google Sheets API for your project.
-3. Create a JSON credentials file for the type of authentication you want to use (e.g., OAuth2).
-4. Rename the credentials file to `credentials.json` and place it in the root directory of the project.
+Antes de começar, é necessário configurar as credenciais de autenticação com o Google.
 
-## Usage
+1. Crie um projeto no [Google Cloud Console](https://console.cloud.google.com/).
+2. Ative a API do Google Sheets para o seu projeto.
+3. Crie um arquivo de credenciais JSON para o tipo de autenticação que deseja utilizar (por exemplo, OAuth2).
+4. Renomeie o arquivo de credenciais para `credentials.json` e coloque-o no diretório raiz do projeto.
 
-Run the `main.py` script to insert data into the Google Sheets.
+## Uso
+
+Execute o script `main.py` para inserir dados na planilha do Google Sheets.
 
 ```bash
 python main.py
-```
-
