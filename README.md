@@ -33,4 +33,4 @@ Antes de começar, é necessário configurar as credenciais de autenticação co
 Execute o script `.py` para inserir dados na planilha do Google Sheets.
 
 ```bash
-python main.py
+python NomeDoProjeto.py
